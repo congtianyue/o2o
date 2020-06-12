@@ -1,0 +1,40 @@
+2020-06-09 18:10:36.816{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id, from tb_shop_category WHERE order by priority DESC 
+2020-06-09 18:10:36.849{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2020-06-09 18:11:39.614{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE order by priority DESC 
+2020-06-09 18:11:39.643{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2020-06-09 18:12:38.952{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
+2020-06-09 18:12:38.977{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2020-06-09 18:12:38.997{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
+2020-06-09 18:13:26.712{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
+2020-06-09 18:13:26.740{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2020-06-09 18:13:26.761{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
+2020-06-09 18:14:13.077{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
+2020-06-09 18:14:13.107{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2020-06-09 18:14:13.129{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 2
+2020-06-09 18:16:29.532{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
+2020-06-09 18:16:29.563{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2020-06-09 18:16:29.584{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 2
+2020-06-09 18:16:29.595{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id=? order by priority DESC 
+2020-06-09 18:16:29.596{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: null
+2020-06-09 18:16:29.597{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 0
+2020-06-09 18:18:04.850{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
+2020-06-09 18:18:04.886{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2020-06-09 18:18:04.910{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 2
+2020-06-09 18:18:04.922{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id=? order by priority DESC 
+2020-06-09 18:18:04.922{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 1(Long)
+2020-06-09 18:18:04.924{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
+2020-06-09 18:18:33.108{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
+2020-06-09 18:18:33.137{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2020-06-09 18:18:33.158{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 2
+2020-06-09 18:18:33.169{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id=? order by priority DESC 
+2020-06-09 18:18:33.169{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 1(Long)
+2020-06-09 18:18:33.170{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
+2020-06-09 19:42:04.116{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id is not null order by priority DESC 
+2020-06-09 19:42:04.155{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2020-06-09 19:42:04.180{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
+2020-06-09 19:42:43.521{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id is not null order by priority DESC 
+2020-06-09 19:42:43.553{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2020-06-09 19:42:43.573{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
+2020-06-09 19:42:43.583{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id is not null and parent_id=? order by priority DESC 
+2020-06-09 19:42:43.584{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 1(Long)
+2020-06-09 19:42:43.585{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1

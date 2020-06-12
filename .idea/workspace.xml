@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="o2o:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6cdd447-725c-4c7e-8f5f-7fddcedb83c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/AppiumDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/src/main/java/com/config/AppiumTestIOSBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/src/main/java/com/config/IOSTestClassBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/src/main/java/com/util/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/src/main/resources/app/jingdongApp.ipa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumDemo/src/test/java/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/LicaiEdu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/java/com/licaiedu/assertion/HomePageAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/java/com/licaiedu/business/LoginBusi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/java/com/licaiedu/configure/ConfigMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/java/com/licaiedu/configure/OpenWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/java/com/licaiedu/configure/SeleniumDriverBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/java/com/licaiedu/ui/UiHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/java/com/licaiedu/ui/UiLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/java/com/licaiedu/utils/ElementSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/java/com/licaiedu/utils/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/java/com/licaiedu/utils/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/resources/driver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/resources/driver/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/resources/profiles/browserSettings.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/resources/profiles/elements.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/main/resources/profiles/url.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/test/java/com/licaiedu/test/LoginDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LicaiEdu/src/test/java/com/licaiedu/test/LoginTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__com_google_inject_extensions_guice_assisted_inject_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__com_google_inject_guice_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__commons_validator_commons_validator_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__io_appium_java_client_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_3_v20170317.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_3_v20170317.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_1_v20170120.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_1_v20170120.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_3_v20170317.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_3_v20170317.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_3_v20170317.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_jetty_repacked_9_4_1_v20170120.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_springframework_spring_aop_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_springframework_spring_beans_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_springframework_spring_context_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_springframework_spring_core_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_springframework_spring_expression_4_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_testng_testng_6_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_uncommons_reportng_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__velocity_velocity_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__velocity_velocity_dep_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MApp-appium/MApp-appium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/6.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/logs/webapps/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/logs/webapps/debug/debug.2020-06-07.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/logs/webapps/debug/debug.2020-06-08.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/logs/webapps/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/logs/webapps/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/dao/AreaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/dao/ShopCategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/dao/ShopDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/dto/ShopExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/entity/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/entity/HeadLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/entity/LocalAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/entity/PersonInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/entity/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/entity/ProductImg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/entity/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/entity/ShopCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/entity/WechatAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/enums/ShopStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/interceptor/ShopOperatationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/service/AreaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/service/ShopCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/service/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/service/impl/AreaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/service/impl/ShopCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/util/HttpServiceRequestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/util/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/util/PathUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/web/shopadmin/ShopAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/web/shopadmin/ShopManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mall/web/superadmin/AreaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.proterties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopCategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopoperation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/mall/cmall/dao/AreaDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/mall/cmall/dao/ShopCategoryDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/mall/cmall/dao/ShopDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/mall/cmall/service/AreaServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/mall/cmall/service/ShopServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium_ui/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium_ui/MoguWebSelenium.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../software/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../software/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cwksaJdgEXjMh4chMvJ7JXPJxQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/resources/js" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20574713" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/js" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.55">
+    <configuration name="ImageUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.mall.util.ImageUtil" />
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.mall.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopCategoryDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.mall.cmall.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.mall.cmall.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.mall.cmall.dao.ShopCategoryDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopCategoryDaoTest.testQueryShopCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.mall.cmall.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.mall.cmall.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.mall.cmall.dao.ShopCategoryDaoTest" />
+      <option name="METHOD_NAME" value="testQueryShopCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopDaoTest.testUpdateShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.mall.cmall.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.mall.cmall.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.mall.cmall.dao.ShopDaoTest" />
+      <option name="METHOD_NAME" value="testUpdateShop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopServiceTest.teatAddShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.mall.cmall.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.mall.cmall.service" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.mall.cmall.service.ShopServiceTest" />
+      <option name="METHOD_NAME" value="teatAddShop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.55" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.55" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="o2o:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/o2o_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_o2o_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57208" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="o2o:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ImageUtil" />
+      <item itemvalue="JUnit.ShopDaoTest.testUpdateShop" />
+      <item itemvalue="JUnit.ShopServiceTest.teatAddShop" />
+      <item itemvalue="JUnit.ShopCategoryDaoTest.testQueryShopCategory" />
+      <item itemvalue="JUnit.ShopCategoryDaoTest" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.55" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShopCategoryDaoTest" />
+        <item itemvalue="JUnit.ShopCategoryDaoTest.testQueryShopCategory" />
+        <item itemvalue="JUnit.ShopServiceTest.teatAddShop" />
+        <item itemvalue="Application.ImageUtil" />
+        <item itemvalue="JUnit.ShopDaoTest.testUpdateShop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6cdd447-725c-4c7e-8f5f-7fddcedb83c1" name="Default Changelist" comment="" />
+      <created>1591447250734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591447250734</updated>
+      <workItem from="1591447251991" duration="6664000" />
+      <workItem from="1591515583368" duration="14239000" />
+      <workItem from="1591604838910" duration="3648000" />
+      <workItem from="1591614525376" duration="488000" />
+      <workItem from="1591615016875" duration="3599000" />
+      <workItem from="1591618630114" duration="5409000" />
+      <workItem from="1591692180739" duration="10787000" />
+      <workItem from="1591783950690" duration="1475000" />
+      <workItem from="1591785528177" duration="1727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2656" y="253" key="#Inspections" timestamp="1591613778233">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state x="2656" y="253" key="#Inspections/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591613778233" />
+    <state x="2324" y="157" width="800" height="717" key="#Intentions" timestamp="1591702885467">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state x="2324" y="157" width="800" height="717" key="#Intentions/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591702885467" />
+    <state x="2203" y="88" key="#Project_Structure" timestamp="1591450426100">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state x="384" y="153" key="#Project_Structure/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591447890324" />
+    <state x="2203" y="88" key="#Project_Structure/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591450426100" />
+    <state x="2531" y="84" key="#Tomcat_8.5.55" timestamp="1591451445124">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state x="2531" y="84" key="#Tomcat_8.5.55/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591451445124" />
+    <state x="140" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591520509997">
+      <screen x="0" y="23" width="1344" height="817" />
+    </state>
+    <state x="140" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1344.817@0.23.1344.817" timestamp="1591520509997" />
+    <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591448964167" />
+    <state x="2178" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591453256334" />
+    <state x="2523" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1591698077520">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state x="2523" y="205" key="#com.intellij.ide.util.MemberChooser/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591698077520" />
+    <state x="464" y="132" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1591520504725">
+      <screen x="0" y="23" width="1344" height="817" />
+    </state>
+    <state x="464" y="132" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.23.1344.817@0.23.1344.817" timestamp="1591520504725" />
+    <state x="618" y="217" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591448934114" />
+    <state x="2467" y="323" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1591451678821">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state x="2467" y="323" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591451678821" />
+    <state width="1823" height="283" key="GridCell.Tab.0.bottom" timestamp="1591703689006">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.0.bottom/0.0.1344.840@0.0.1344.840" timestamp="1591520667333" />
+    <state width="1016" height="307" key="GridCell.Tab.0.bottom/0.23.1344.817@0.23.1344.817" timestamp="1591520919298" />
+    <state width="1204" height="303" key="GridCell.Tab.0.bottom/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079704" />
+    <state width="1823" height="283" key="GridCell.Tab.0.bottom/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689006" />
+    <state width="1823" height="283" key="GridCell.Tab.0.center" timestamp="1591703689005">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.0.center/0.0.1344.840@0.0.1344.840" timestamp="1591520667331" />
+    <state width="1016" height="307" key="GridCell.Tab.0.center/0.23.1344.817@0.23.1344.817" timestamp="1591520919297" />
+    <state width="1204" height="303" key="GridCell.Tab.0.center/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079703" />
+    <state width="1823" height="283" key="GridCell.Tab.0.center/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689005" />
+    <state width="1823" height="283" key="GridCell.Tab.0.left" timestamp="1591703689005">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.0.left/0.0.1344.840@0.0.1344.840" timestamp="1591520667330" />
+    <state width="1016" height="307" key="GridCell.Tab.0.left/0.23.1344.817@0.23.1344.817" timestamp="1591520919297" />
+    <state width="1204" height="303" key="GridCell.Tab.0.left/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079702" />
+    <state width="1823" height="283" key="GridCell.Tab.0.left/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689005" />
+    <state width="1823" height="283" key="GridCell.Tab.0.right" timestamp="1591703689005">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.0.right/0.0.1344.840@0.0.1344.840" timestamp="1591520667332" />
+    <state width="1016" height="307" key="GridCell.Tab.0.right/0.23.1344.817@0.23.1344.817" timestamp="1591520919298" />
+    <state width="1204" height="303" key="GridCell.Tab.0.right/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079703" />
+    <state width="1823" height="283" key="GridCell.Tab.0.right/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689005" />
+    <state width="1447" height="215" key="GridCell.Tab.1.bottom" timestamp="1591703689002">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.1.bottom/0.0.1344.840@0.0.1344.840" timestamp="1591520667178" />
+    <state width="1016" height="307" key="GridCell.Tab.1.bottom/0.23.1344.817@0.23.1344.817" timestamp="1591520919300" />
+    <state width="1204" height="303" key="GridCell.Tab.1.bottom/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079638" />
+    <state width="1447" height="215" key="GridCell.Tab.1.bottom/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689002" />
+    <state width="1447" height="215" key="GridCell.Tab.1.center" timestamp="1591703689001">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.1.center/0.0.1344.840@0.0.1344.840" timestamp="1591520667178" />
+    <state width="1016" height="307" key="GridCell.Tab.1.center/0.23.1344.817@0.23.1344.817" timestamp="1591520919299" />
+    <state width="1204" height="303" key="GridCell.Tab.1.center/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079638" />
+    <state width="1447" height="215" key="GridCell.Tab.1.center/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689001" />
+    <state width="1447" height="215" key="GridCell.Tab.1.left" timestamp="1591703689001">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.1.left/0.0.1344.840@0.0.1344.840" timestamp="1591520667177" />
+    <state width="1016" height="307" key="GridCell.Tab.1.left/0.23.1344.817@0.23.1344.817" timestamp="1591520919299" />
+    <state width="1204" height="303" key="GridCell.Tab.1.left/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079637" />
+    <state width="1447" height="215" key="GridCell.Tab.1.left/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689001" />
+    <state width="1447" height="215" key="GridCell.Tab.1.right" timestamp="1591703689001">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.1.right/0.0.1344.840@0.0.1344.840" timestamp="1591520667178" />
+    <state width="1016" height="307" key="GridCell.Tab.1.right/0.23.1344.817@0.23.1344.817" timestamp="1591520919299" />
+    <state width="1204" height="303" key="GridCell.Tab.1.right/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079638" />
+    <state width="1447" height="215" key="GridCell.Tab.1.right/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689001" />
+    <state width="1447" height="215" key="GridCell.Tab.2.bottom" timestamp="1591703689002">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.2.bottom/0.0.1344.840@0.0.1344.840" timestamp="1591520667180" />
+    <state width="1016" height="307" key="GridCell.Tab.2.bottom/0.23.1344.817@0.23.1344.817" timestamp="1591520919301" />
+    <state width="1204" height="303" key="GridCell.Tab.2.bottom/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079640" />
+    <state width="1447" height="215" key="GridCell.Tab.2.bottom/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689002" />
+    <state width="1447" height="215" key="GridCell.Tab.2.center" timestamp="1591703689002">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.2.center/0.0.1344.840@0.0.1344.840" timestamp="1591520667179" />
+    <state width="1016" height="307" key="GridCell.Tab.2.center/0.23.1344.817@0.23.1344.817" timestamp="1591520919300" />
+    <state width="1204" height="303" key="GridCell.Tab.2.center/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079639" />
+    <state width="1447" height="215" key="GridCell.Tab.2.center/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689002" />
+    <state width="1447" height="215" key="GridCell.Tab.2.left" timestamp="1591703689002">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.2.left/0.0.1344.840@0.0.1344.840" timestamp="1591520667179" />
+    <state width="1016" height="307" key="GridCell.Tab.2.left/0.23.1344.817@0.23.1344.817" timestamp="1591520919300" />
+    <state width="1204" height="303" key="GridCell.Tab.2.left/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079639" />
+    <state width="1447" height="215" key="GridCell.Tab.2.left/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689002" />
+    <state width="1447" height="215" key="GridCell.Tab.2.right" timestamp="1591703689002">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state width="1222" height="307" key="GridCell.Tab.2.right/0.0.1344.840@0.0.1344.840" timestamp="1591520667180" />
+    <state width="1016" height="307" key="GridCell.Tab.2.right/0.23.1344.817@0.23.1344.817" timestamp="1591520919301" />
+    <state width="1204" height="303" key="GridCell.Tab.2.right/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591449079639" />
+    <state width="1447" height="215" key="GridCell.Tab.2.right/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591703689002" />
+    <state x="2380" y="153" key="Maven.ArtifactSearchDialog" timestamp="1591529333774">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state x="2380" y="153" key="Maven.ArtifactSearchDialog/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591529333774" />
+    <state x="2217" y="143" key="SettingsEditor" timestamp="1591529166078">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state x="397" y="210" key="SettingsEditor/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591448921594" />
+    <state x="2217" y="143" key="SettingsEditor/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591529166078" />
+    <state x="2513" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591529611237">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state x="2513" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591529611237" />
+    <state x="2375" y="198" width="670" height="676" key="search.everywhere.popup" timestamp="1591531088582">
+      <screen x="1792" y="-37" width="1920" height="1057" />
+    </state>
+    <state x="2375" y="198" width="670" height="676" key="search.everywhere.popup/1792.-37.1920.1057/0.23.1792.1097@1792.-37.1920.1057" timestamp="1591531088582" />
+    <state x="597" y="319" key="spring file set editor" timestamp="1591448091447">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="597" y="319" key="spring file set editor/1792.-37.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1591448091447" />
+  </component>
+</project>
