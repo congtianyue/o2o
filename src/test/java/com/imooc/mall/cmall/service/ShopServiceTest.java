@@ -44,7 +44,7 @@ public class ShopServiceTest extends BaseTest {
         shop.setCreateTime(new Date());
         shop.setEnableStatus(ShopStateEnum.CHECK.getState());
         shop.setAdvice("审核中");
-        File shopImg=new File("/Users/tianyuecong/Pictures/image/timg01.jpg");
+        File shopImg=new File("N:/FLAMING MOUNTAIN.JPG");
         try {
             FileInputStream is=new FileInputStream(shopImg);
             ShopExecution se=shopService.addShop(shop, is, shopImg.getName());

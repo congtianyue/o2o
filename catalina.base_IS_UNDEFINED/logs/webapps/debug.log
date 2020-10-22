@@ -1,40 +1,60 @@
-2020-06-09 18:10:36.816{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id, from tb_shop_category WHERE order by priority DESC 
-2020-06-09 18:10:36.849{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
-2020-06-09 18:11:39.614{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE order by priority DESC 
-2020-06-09 18:11:39.643{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
-2020-06-09 18:12:38.952{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
-2020-06-09 18:12:38.977{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
-2020-06-09 18:12:38.997{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
-2020-06-09 18:13:26.712{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
-2020-06-09 18:13:26.740{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
-2020-06-09 18:13:26.761{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
-2020-06-09 18:14:13.077{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
-2020-06-09 18:14:13.107{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
-2020-06-09 18:14:13.129{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 2
-2020-06-09 18:16:29.532{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
-2020-06-09 18:16:29.563{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
-2020-06-09 18:16:29.584{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 2
-2020-06-09 18:16:29.595{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id=? order by priority DESC 
-2020-06-09 18:16:29.596{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: null
-2020-06-09 18:16:29.597{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 0
-2020-06-09 18:18:04.850{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
-2020-06-09 18:18:04.886{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
-2020-06-09 18:18:04.910{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 2
-2020-06-09 18:18:04.922{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id=? order by priority DESC 
-2020-06-09 18:18:04.922{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 1(Long)
-2020-06-09 18:18:04.924{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
-2020-06-09 18:18:33.108{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category order by priority DESC 
-2020-06-09 18:18:33.137{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
-2020-06-09 18:18:33.158{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 2
-2020-06-09 18:18:33.169{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id=? order by priority DESC 
-2020-06-09 18:18:33.169{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 1(Long)
-2020-06-09 18:18:33.170{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
-2020-06-09 19:42:04.116{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id is not null order by priority DESC 
-2020-06-09 19:42:04.155{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
-2020-06-09 19:42:04.180{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
-2020-06-09 19:42:43.521{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id is not null order by priority DESC 
-2020-06-09 19:42:43.553{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
-2020-06-09 19:42:43.573{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
-2020-06-09 19:42:43.583{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: select shop_category_id, shop_category_name, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id is not null and parent_id=? order by priority DESC 
-2020-06-09 19:42:43.584{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 1(Long)
-2020-06-09 19:42:43.585{main}DEBUGc.imooc.mall.dao.ShopCategoryDao.queryShopCategory-<==      Total: 1
+2020-10-22 14:41:31.804{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,?,?,?,?,?,? ,?,?,?,?,?,?) 
+2020-10-22 14:41:31.851{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), desc3(String), test3(String), test1(String), test1(String), null, 2020-10-22 14:41:31.781(Timestamp), 2020-10-22 14:41:31.781(Timestamp), 0(Integer), 审核中(String)
+2020-10-22 14:41:31.857{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-<==    Updates: 1
+2020-10-22 14:41:31.937{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+2020-10-22 14:41:31.938{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==> Parameters: 测试的店铺3(String), desc3(String), test3(String), test1(String), \upload\item\shop\22\2020102214413195942.JPG(String), 2020-10-22 14:41:31.781(Timestamp), 0(Integer), 审核中(String), 1(Long), 2(Integer), 22(Long)
+2020-10-22 14:41:31.940{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-<==    Updates: 1
+2020-10-22 14:45:49.610{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,?,?,?,?,?,? ,?,?,?,?,?,?) 
+2020-10-22 14:45:49.655{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), desc3(String), test3(String), test1(String), test1(String), null, 2020-10-22 14:45:49.585(Timestamp), 2020-10-22 14:45:49.585(Timestamp), 0(Integer), 审核中(String)
+2020-10-22 14:45:49.657{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-<==    Updates: 1
+2020-10-22 14:45:49.721{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+2020-10-22 14:45:49.722{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==> Parameters: 测试的店铺3(String), desc3(String), test3(String), test1(String), \upload\item\shop\23\2020102214454919935.JPG(String), 2020-10-22 14:45:49.585(Timestamp), 0(Integer), 审核中(String), 1(Long), 2(Integer), 23(Long)
+2020-10-22 14:45:49.723{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-<==    Updates: 1
+2020-10-22 14:52:40.981{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,?,?,?,?,?,? ,?,?,?,?,?,?) 
+2020-10-22 14:52:41.031{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), desc3(String), test3(String), test1(String), test1(String), null, 2020-10-22 14:52:40.955(Timestamp), 2020-10-22 14:52:40.955(Timestamp), 0(Integer), 审核中(String)
+2020-10-22 14:52:41.034{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-<==    Updates: 1
+2020-10-22 14:52:41.113{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+2020-10-22 14:52:41.114{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==> Parameters: 测试的店铺3(String), desc3(String), test3(String), test1(String), \upload\item\shop\24\2020102214524153353.JPG(String), 2020-10-22 14:52:40.955(Timestamp), 0(Integer), 审核中(String), 1(Long), 2(Integer), 24(Long)
+2020-10-22 14:52:41.116{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-<==    Updates: 1
+2020-10-22 14:54:19.881{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,?,?,?,?,?,? ,?,?,?,?,?,?) 
+2020-10-22 14:54:19.926{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), desc3(String), test3(String), test1(String), test1(String), null, 2020-10-22 14:54:19.855(Timestamp), 2020-10-22 14:54:19.855(Timestamp), 0(Integer), 审核中(String)
+2020-10-22 14:54:19.927{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-<==    Updates: 1
+2020-10-22 14:54:19.997{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+2020-10-22 14:54:19.998{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==> Parameters: 测试的店铺3(String), desc3(String), test3(String), test1(String), \upload\item\shop\25\2020102214541928897.JPG(String), 2020-10-22 14:54:19.855(Timestamp), 0(Integer), 审核中(String), 1(Long), 2(Integer), 25(Long)
+2020-10-22 14:54:20.000{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-<==    Updates: 1
+2020-10-22 14:55:48.230{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,?,?,?,?,?,? ,?,?,?,?,?,?) 
+2020-10-22 14:55:48.277{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), desc3(String), test3(String), test1(String), test1(String), null, 2020-10-22 14:55:48.203(Timestamp), 2020-10-22 14:55:48.203(Timestamp), 0(Integer), 审核中(String)
+2020-10-22 14:55:48.279{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-<==    Updates: 1
+2020-10-22 14:55:48.360{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+2020-10-22 14:55:48.360{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==> Parameters: 测试的店铺3(String), desc3(String), test3(String), test1(String), \upload\item\shop\26\2020102214554851975.JPG(String), 2020-10-22 14:55:48.203(Timestamp), 0(Integer), 审核中(String), 1(Long), 2(Integer), 26(Long)
+2020-10-22 14:55:48.362{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-<==    Updates: 1
+2020-10-22 14:57:50.472{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,?,?,?,?,?,? ,?,?,?,?,?,?) 
+2020-10-22 14:57:50.517{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), desc3(String), test3(String), test1(String), test1(String), null, 2020-10-22 14:57:50.443(Timestamp), 2020-10-22 14:57:50.443(Timestamp), 0(Integer), 审核中(String)
+2020-10-22 14:57:50.519{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-<==    Updates: 1
+2020-10-22 14:57:50.599{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+2020-10-22 14:57:50.600{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==> Parameters: 测试的店铺3(String), desc3(String), test3(String), test1(String), \upload\item\shop\27\2020102214575073410.JPG(String), 2020-10-22 14:57:50.443(Timestamp), 0(Integer), 审核中(String), 1(Long), 2(Integer), 27(Long)
+2020-10-22 14:57:50.601{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-<==    Updates: 1
+2020-10-22 14:58:36.773{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,?,?,?,?,?,? ,?,?,?,?,?,?) 
+2020-10-22 14:58:36.814{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), desc3(String), test3(String), test1(String), test1(String), null, 2020-10-22 14:58:36.747(Timestamp), 2020-10-22 14:58:36.747(Timestamp), 0(Integer), 审核中(String)
+2020-10-22 14:58:36.815{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-<==    Updates: 1
+2020-10-22 14:58:36.883{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+2020-10-22 14:58:36.884{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==> Parameters: 测试的店铺3(String), desc3(String), test3(String), test1(String), \upload\item\shop\28\2020102214583636191.JPG(String), 2020-10-22 14:58:36.747(Timestamp), 0(Integer), 审核中(String), 1(Long), 2(Integer), 28(Long)
+2020-10-22 14:58:36.885{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-<==    Updates: 1
+2020-10-22 15:05:48.207{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,?,?,?,?,?,? ,?,?,?,?,?,?) 
+2020-10-22 15:05:48.257{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), desc3(String), test3(String), test1(String), test1(String), null, 2020-10-22 15:05:48.176(Timestamp), 2020-10-22 15:05:48.176(Timestamp), 0(Integer), 审核中(String)
+2020-10-22 15:05:48.259{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-<==    Updates: 1
+2020-10-22 15:05:48.328{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+2020-10-22 15:05:48.328{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==> Parameters: 测试的店铺3(String), desc3(String), test3(String), test1(String), \upload\item\shop\29\2020102215054863425.JPG(String), 2020-10-22 15:05:48.176(Timestamp), 0(Integer), 审核中(String), 1(Long), 2(Integer), 29(Long)
+2020-10-22 15:05:48.329{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-<==    Updates: 1
+2020-10-22 15:24:45.527{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,?,?,?,?,?,? ,?,?,?,?,?,?) 
+2020-10-22 15:24:45.572{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), desc3(String), test3(String), test1(String), test1(String), null, 2020-10-22 15:24:45.497(Timestamp), 2020-10-22 15:24:45.497(Timestamp), 0(Integer), 审核中(String)
+2020-10-22 15:24:45.574{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-<==    Updates: 1
+2020-10-22 15:24:46.311{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+2020-10-22 15:24:46.311{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==> Parameters: 测试的店铺3(String), desc3(String), test3(String), test1(String), \upload\item\shop\31\2020102215244560940.JPG(String), 2020-10-22 15:24:45.497(Timestamp), 0(Integer), 审核中(String), 1(Long), 2(Integer), 31(Long)
+2020-10-22 15:24:46.313{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-<==    Updates: 1
+2020-10-22 15:29:19.363{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) values (?,?,?,?,?,?,? ,?,?,?,?,?,?) 
+2020-10-22 15:29:19.409{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), desc3(String), test3(String), test1(String), test1(String), null, 2020-10-22 15:29:19.34(Timestamp), 2020-10-22 15:29:19.34(Timestamp), 0(Integer), 审核中(String)
+2020-10-22 15:29:19.411{main}DEBUGcom.imooc.mall.dao.ShopDao.insertShop-<==    Updates: 1
+2020-10-22 15:29:20.087{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, shop_category_id=?, area_id=? where shop_id=? 
+2020-10-22 15:29:20.088{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-==> Parameters: 测试的店铺3(String), desc3(String), test3(String), test1(String), \upload\item\shop\32\2020102215291984308.JPG(String), 2020-10-22 15:29:19.34(Timestamp), 0(Integer), 审核中(String), 1(Long), 2(Integer), 32(Long)
+2020-10-22 15:29:20.089{main}DEBUGcom.imooc.mall.dao.ShopDao.updateShop-<==    Updates: 1

@@ -54,6 +54,7 @@ public class ImageUtil {
                     .size(200,200)
                     .watermark(Positions.BOTTOM_RIGHT, ImageIO.read(new File(basePath+"logo.png")), 0.25f)
                     .outputQuality(0.8f).toFile(dest);
+
         } catch (IOException e) {
             e.printStackTrace();
         }
