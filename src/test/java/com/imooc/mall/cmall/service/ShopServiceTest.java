@@ -25,7 +25,7 @@ public class ShopServiceTest extends BaseTest {
     private ShopService shopService;
 
     @Test
-    public void teatAddShop(){
+    public void testAddShop(){
         Shop shop=new Shop();
         PersonInfo owner=new PersonInfo();
         Area area=new Area();
@@ -53,5 +53,9 @@ public class ShopServiceTest extends BaseTest {
             e.printStackTrace();
         }
 
+    }
+    @Test
+    public void testUpdateShop(){
+        
     }
 }

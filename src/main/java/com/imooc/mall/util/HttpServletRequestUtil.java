@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 接受并响应HttpServletRequest转化的参数
  */
-public class HttpServiceRequestUtil {
+public class HttpServletRequestUtil {
     public static int getInt(HttpServletRequest request,String key){
         try{
             return Integer.decode(request.getParameter(key));
